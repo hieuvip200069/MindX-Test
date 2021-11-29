@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CorlorPicker</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../css/Style.css">
+</head>
+
+<body>
+    <main>
+        <section class="color-picker">
+            <div class="container-fluid row">
+                <div class=" col-3 "></div>
+                <div class="col-6 border">
+                    <div class="head ">
+                        <h3>Color Picker</h3>
+                    </div>
+                    <div class="Show-Color ">
+                        <div class="Color row">
+                            <div class="col-6" id="Color" name="Color"></div>
+                            <div class="col-6" id="inf-Color">
+                                <h3 id="colorinf">Color: </h3>
+                                <input type="text" id="hiddenColor">
+                                <button class="btn btn-info" onclick="copyColor()">Copy</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" btn-group Custom-btn ">
+                        <button class="btn btn-info " onclick="getRamdomColor() ">Ramdom Color</button>
+                    </div>
+                </div>
+                <div class="col-3 "></div>
+            </div>
+        </section>
+
+    </main>
+
+    <script src="../js/main.js ">
+    </script>
+</body>
+
+</html>
